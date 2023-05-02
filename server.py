@@ -1,3 +1,4 @@
+gunicorn serverforapp3.wsgi
 from fastapi import FastAPI
 
 app = FastAPI()
